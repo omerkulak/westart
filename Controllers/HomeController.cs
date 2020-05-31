@@ -54,8 +54,13 @@ namespace helloword2.Controllers
                  return  View();
              }
              
+
          }
 
+        public ActionResult hakkimizda() {
+            return View();    
+
+        }      
 
     }
 }

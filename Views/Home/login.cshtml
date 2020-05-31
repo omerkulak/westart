@@ -1,0 +1,9 @@
+<p style="color: red;">@ViewBag.hata</p>
+
+@using (Html.BeginForm("Login", "Home", FormMethod.Post))   
+{
+    <input type="text" name="username">
+    <input type="password" name="password">
+
+    <input type="submit" value="gönder">
+}

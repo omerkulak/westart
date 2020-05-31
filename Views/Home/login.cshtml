@@ -1,7 +1,8 @@
 <p style="color: red;">@ViewBag.hata</p>
 
-@using (Html.BeginForm("Login", "Home", FormMethod.Post))   
+@using (Html.BeginForm("Login", "Home", FormMethod.Post, new {@class="form-horizontal"}))   
 {
+    <div class="">örnek div</div>
     <input type="text" name="username">
     <input type="password" name="password">
 
